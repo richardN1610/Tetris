@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid{
+    width: 20vw;
+    height: 40vw;
+    background-color: rgba(129, 120, 120, 0.63);
+    /*using flex to ensure that the divs inside grid stack and doesnt overflow*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block{
+    width: 2vw;
+    height: 2vw;
+    background-color: rgba(102, 94, 94, 0.733);
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.tetris-shape{
+    background-color: blueviolet;
+}
